@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-size: 1em;
+    font-family: sans-serif;
+    display: flex;
+    
+    background:#FFFFFF;/* #70BFF2*/
+   
+
+}
+/*navegação*/
+.nav{
+    width: 100%;
+    position:absolute;
+    display:flex;
+    padding: 5px;
+    margin: auto;
+    background: #2A4380;
+    /*background:#0E3588;#222C56*/
+
+}
+.nav ul{
+
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover{
+    
+    border-radius: 10px;
+    
+}
+/* fim navegação*/
+
+
+.h1{
+    
+    margin: 10px auto;
+    
+
+}
+
+#formulario{
+    width: 70% ;
+    background:white;
+    margin: 70px auto;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.input-grup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+    margin-right: 0.8rem;
+
+    
+
+}
+
+.input-grup input,select{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-grup label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.button button{
+
+    margin-top: 1rem;
+    color: white;
+    font-size: 1rem;
+    background-color:#2A4380; 
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.button :hover{
+    background:rgb(27, 181, 228);
+}

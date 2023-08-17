@@ -1,0 +1,12 @@
+Ao montar a tabela de prontuário no banco de dados MySQL, você pode seguir a seguinte estrutura sugerida:
+
+Tabela "prontuarios":
+
+
+Nessa estrutura sugerida, cada coluna possui um tipo de dado correspondente para armazenar as informações relevantes do prontuário. As colunas "paciente_id" e "profissional_id" são chaves estrangeiras que referenciam os respectivos identificadores das tabelas de pacientes e profissionais.
+
+A coluna "data" armazena a data do prontuário, enquanto as colunas "diagnostico", "prescricao" e "observacoes" são do tipo TEXT para permitir armazenar informações mais extensas.
+
+As colunas "criado_em" e "atualizado_em" são do tipo TIMESTAMP e são opcionais, mas podem ser úteis para rastrear a data e hora de criação e atualização dos prontuários.
+
+Lembre-se de ajustar essa estrutura de acordo com os requisitos específicos do seu sistema. Você também pode adicionar mais colunas, se necessário, para atender às necessidades dos prontuários médicos em seu contexto.

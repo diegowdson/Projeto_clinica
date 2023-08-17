@@ -1,0 +1,16 @@
+Ao criar a página HTML para o agendamento no sistema, você pode seguir as seguintes diretrizes:
+
+Crie um formulário HTML para coletar as informações necessárias para o agendamento. Exemplo de estrutura básica:
+
+
+
+
+Realize as validações necessárias no lado do cliente usando JavaScript e no lado do servidor usando PHP. Aqui estão algumas validações comuns que você pode considerar:
+Todos os campos obrigatórios devem ser preenchidos (use o atributo required nos elementos de entrada).
+Valide o formato da data e hora inseridos.
+Limite as opções de data e hora disponíveis para agendamento (por exemplo, não permita datas ou horários passados).
+Limite o tamanho máximo das informações inseridas nos campos (por exemplo, usando o atributo maxlength nos campos de texto).
+Verifique se os dados de entrada estão no formato esperado (por exemplo, usando expressões regulares para validar e-mails ou números de telefone).
+Considere também a validação no lado do servidor para garantir a segurança e consistência dos dados, evitando ataques de injeção de SQL, por exemplo, usando declarações preparadas ou funções de escape para tratar os dados antes de inseri-los no banco de dados.
+No arquivo de processamento em PHP (processamento.php no exemplo acima), você deve receber os dados do formulário e realizar as validações adicionais no lado do servidor. Verifique se os dados estão preenchidos corretamente, trate os dados de forma segura e execute as operações de inserção no banco de dados.
+Lembre-se de adaptar as validações e os requisitos específicos do seu sistema, conforme necessário, para garantir a integridade dos dados e a usabilidade da página de agendamento.

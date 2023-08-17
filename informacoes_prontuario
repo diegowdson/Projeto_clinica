@@ -1,0 +1,35 @@
+Ao projetar os formulários de página HTML para o prontuário em um sistema de clínica médica, você deve considerar as informações relevantes que precisam ser coletadas dos usuários. Aqui estão algumas informações comuns que são importantes nos formulários de prontuário:
+
+Dados do paciente:
+
+Nome do paciente
+Data de nascimento
+Gênero
+Informações de contato (telefone, e-mail, endereço)
+Dados do profissional:
+
+Nome do profissional responsável pelo prontuário
+Especialidade médica
+Outras informações relevantes sobre o profissional
+Histórico médico:
+
+Informações sobre histórico médico prévio do paciente, como doenças crônicas, alergias, cirurgias anteriores, medicamentos em uso, entre outros.
+Sintomas e queixas:
+
+Espaço para o paciente relatar seus sintomas e queixas atuais.
+Exame físico:
+
+Possibilidade de registrar os resultados de um exame físico, como pressão arterial, temperatura corporal, pulso, entre outros.
+Diagnóstico:
+
+Campo para registrar o diagnóstico médico com base na avaliação do paciente, exames laboratoriais ou outros exames realizados.
+Prescrição:
+
+Espaço para o profissional registrar as prescrições médicas, como medicamentos, dosagens, frequência de uso, entre outros.
+Exames complementares:
+
+Possibilidade de anexar ou registrar informações sobre exames complementares, como resultados de radiografias, ultrassonografias, ressonâncias magnéticas, entre outros.
+Observações e anotações adicionais:
+
+Campo para o profissional registrar observações adicionais relevantes sobre o prontuário.
+É importante adaptar essas informações de acordo com as necessidades específicas do seu sistema e as diretrizes médicas aplicáveis. Além disso, é recomendável considerar requisitos de privacidade e segurança, como criptografar informações sensíveis e garantir que apenas profissionais autorizados tenham acesso aos prontuários.

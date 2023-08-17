@@ -1,0 +1,25 @@
+Para implementar a parte de prontuários em PHP com banco de dados MySQL, você pode seguir os seguintes passos:
+
+Criar a tabela do banco de dados:
+
+Crie uma tabela chamada "prontuarios" com as colunas necessárias para armazenar as informações do prontuário. Isso pode incluir colunas como "id" (identificador único), "paciente_id" (referência ao paciente associado), "profissional_id" (referência ao profissional associado), "data" (data do prontuário), "diagnostico" (diagnóstico médico), "prescricao" (prescrição médica), entre outros campos relevantes.
+Relacionar as tabelas:
+
+Verifique se as tabelas de pacientes, profissionais e prontuários estão corretamente relacionadas por meio de chaves estrangeiras. Por exemplo, a coluna "paciente_id" na tabela "prontuarios" deve ser uma chave estrangeira referenciando o "id" na tabela "pacientes". O mesmo se aplica à coluna "profissional_id" referenciando a tabela "profissionais".
+Página de criação de prontuário:
+
+Crie uma página que permita ao usuário criar um novo prontuário. Essa página deve incluir um formulário HTML com os campos relevantes, como diagnóstico, prescrição, data, etc. Ao enviar o formulário, você pode processar os dados no lado do servidor em um arquivo PHP.
+Processamento dos dados:
+
+No arquivo PHP responsável pelo processamento do formulário, receba os dados enviados pelo formulário e realize as validações necessárias.
+Insira os dados na tabela "prontuarios" no banco de dados. Isso pode ser feito usando uma consulta SQL INSERT. Certifique-se de tratar os dados de forma segura para evitar ataques de injeção de SQL, utilizando declarações preparadas ou funções de escape.
+Página de visualização dos prontuários:
+
+Crie uma página que permita aos usuários visualizar os prontuários existentes. Isso pode ser feito recuperando os dados da tabela "prontuarios" do banco de dados e exibindo-os em uma tabela HTML. Você pode usar consultas SQL SELECT para obter os prontuários relacionados a um determinado paciente ou profissional.
+Edição e exclusão de prontuários:
+
+Implemente funcionalidades para editar e excluir prontuários. Isso pode ser feito por meio de páginas específicas que exibam os detalhes do prontuário e permitam ao usuário atualizar ou excluir os dados. Use consultas SQL UPDATE e DELETE para realizar essas operações no banco de dados.
+Segurança:
+
+Certifique-se de aplicar medidas de segurança, como validar os dados de entrada, evitar a exposição de informações confidenciais e proteger contra ataques maliciosos, como cross-site scripting (XSS) e cross-site request forgery (CSRF).
+Esses são os passos gerais para implementar a parte de prontuários em PHP com banco de dados MySQL. Lembre-se de adaptar essas etapas de acordo com a estrutura e requisitos específicos do seu sistema.
